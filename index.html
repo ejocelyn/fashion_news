@@ -71,7 +71,6 @@
         }
       
        img {
-         padding: 2.5% 5%;
          max-width: 100%;
       } 
       
@@ -134,6 +133,10 @@
         color: #ECC6C6;
       }
       
+       #nav li:hover {
+        color: #ECC6C6;
+      }
+      
       div.relative {
         position: relative;
         width: 100%;
@@ -152,9 +155,23 @@
       
       div.CenterImage{
         display: block;
-        margin: auto;
-        background-color: red;
         width: 100%;
+      }
+      
+      div.CenterImagePhoto {
+        margin-left: auto;
+        margin-right: auto;
+        width: 67%;
+      }
+      
+      div.CenterImagePhoto img {
+        padding: 0% 5%;
+      }
+      
+      div.CenterImagePhoto1 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
       }
       
       div.CenterImage img {
@@ -170,8 +187,8 @@
       <h1>Stitches</h1>
         <div id="nav">
           <ul>
-            <li><a href="/">Spring and Summer Trends</a></li>
-            <li><a href="/">Fashion News</a></li>
+            <li><a href="https://ejocelyn.github.io/SpringandSummerTrends/">Spring and Summer Trends</a></li>
+            <li>Fashion News</li>
             <li><a href="/">Contact Us</a></li>
             <li><a href="https://ejocelyn.github.io/about-us/">About Us</a></li>
           </ul>
@@ -241,10 +258,12 @@
     </p> 
       
       <div class="CenterImage">
+         <div class="CenterImagePhoto">
         <img src="Ariana_Oscars2.avif" alt="Model walking on runway in floor length gold dress with a tight bodice and flared skirt." width="400px">
     
         <img src="Ariana_Oscars.avif" alt="Ariana Grande standing on the Oscars red carpet in floorlength pink dress with a tight bodica and flared skirt." width="400px">
         </div>
+      </div>
       
       <h3>
         Ariana Grande
@@ -259,7 +278,9 @@
       
       <!-- center images-->
       <div class="CenterImage">
-      <img src="Cynthia_Ervo_Oscars.jpeg" alt="l" width="400px">
+        <div class="CenterImagePhoto1">
+      <img src="Cynthia_Ervo_Oscars.jpeg" alt="Cynthia Ervo on oscars red carpet wearing a green velvet Louis Vitton ballgown." width="400px">
+      </div>
       </div>
       <h3>
         Cynthia Ervo
